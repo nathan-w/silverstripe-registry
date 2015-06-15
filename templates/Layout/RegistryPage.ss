@@ -10,7 +10,8 @@ $Content
 
 <div id="{$DataClass}_results" class="resultsContainer">
 	<% if RegistryEntries %>
-		<table class="results" summary="<%t RegistryPage.ResultsFor "Search results for" %> $DataClass">
+		<table class="results">
+			<caption>Table: $Title - updated $lastupdated.nice</caption>
 			<thead>
 				<tr>
 					<% loop Columns %>
