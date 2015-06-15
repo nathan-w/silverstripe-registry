@@ -15,7 +15,7 @@ $Content
 			<thead>
 				<tr>
 					<% loop Columns %>
-						<th scope="col"><a href="$Top.QueryLink&amp;Sort={$Name}&amp;Dir={$Top.OppositeDirection}#results">$Title</a></th>
+						<th scope="col"><a href="$Top.QueryLink&amp;Sort={$Name}&amp;Dir={$Top.OppositeDirection}#results">$Title<span class="hide-text">: sort $Top.OppositeDirection</span></a></th>
 					<% end_loop %>
 				</tr>
 			</thead>
